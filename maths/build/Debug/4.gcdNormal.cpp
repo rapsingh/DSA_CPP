@@ -15,6 +15,6 @@ int main()
   }
   
   
-  printf("No of trailing zeros for factorial of %d & %d is %d",a,b,res);
+  printf("HCF of %d & %d is %d",a,b,res);
   return 0;
 }

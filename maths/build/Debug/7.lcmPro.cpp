@@ -21,12 +21,13 @@ int gcdEculid(int a, int b)
 
 int main()
 {
-  int a=7;  
-  int b=13;
+  int a=2;  
+  int b=8;
   
-  int res= gcdEculid(a,b);
+  int hcf= gcdEculid(a,b);
+  int res = (a*b)/hcf;
   
   
-  printf("HCF of %d & %d is %d",a,b,res);
+  printf("LCM of %d & %d is %d",a,b,res);
   return 0;
 }
