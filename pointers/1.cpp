@@ -9,7 +9,8 @@ int a;
 int *p;
 a=1025;
 p=&a;
-printf("address of a %d",p);
-printf("address of p itself %d",&p);
+printf("address of a %d\n",p);
+printf("address of p itself %d\n",&p);
+
     return 0;
 }
